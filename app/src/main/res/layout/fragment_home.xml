@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.HomeFragment">
+
+    <ViewFlipper
+        android:id="@+id/ViewFlipper1"
+        android:layout_width="412dp"
+        android:layout_height="581dp"
+        android:autoStart="true"
+        android:background="@color/black"
+        android:flipInterval="3000"
+        android:inAnimation="@android:anim/slide_in_left"
+        android:outAnimation="@android:anim/slide_out_right"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.058">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="547dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/tommy" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/arthurshelby" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/johnshelby" />
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/polly" />
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/michal" />
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/grace" />
+
+    </ViewFlipper>
+
+    <ViewFlipper
+        android:id="@+id/ViewFlipper2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:flipInterval="3000"
+        android:autoStart="true"
+        android:inAnimation="@android:anim/fade_in"
+        android:outAnimation="@android:anim/fade_out"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ViewFlipper1" >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="THOMAS SHELBY"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold">
+
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ARTHUR SHELBY"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold">
+
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="JOHN SHELBY"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold">
+
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="POLLY SHELBY"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold">
+
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MICHAL SHELBY"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold">
+
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GRACE"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold">
+
+        </TextView>
+    </ViewFlipper>
+
+    <ViewFlipper
+        android:id="@+id/ViewFlipper3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:flipInterval="3000"
+        android:autoStart="true"
+        android:inAnimation="@android:anim/fade_in"
+        android:outAnimation="@android:anim/fade_out"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ViewFlipper2" >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Criminal activities	Bookmaking, assault, extortion, fraud, murder, rape, fencing, hooliganism, bribery, smuggling, hijacking and robbery"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        android:textStyle="italic">
+
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The most violent of these youth street gangs organised themselves as a singular group known as the Peaky Blinders"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        android:textStyle="italic">
+
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The Peaky Blinders, after they established controlled territory in the late 19th century, began expanding their criminal enterprise. Their activities included protection rackets, fraud, land grabs, smuggling, hijacking, robbery, and illegal bookmaking"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        android:textStyle="italic">
+
+    </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Elizabeth Pollyanna  Gray (née Shelby) is one of the two former tritagonists (alongside John Shelby) of Peaky Blinders. She is the mother of Michael and Anna Gray, aunt of Arthur, Thomas, John, Ada and Finn Shelby, as well as being the matriarch of the Shelby Family."
+            android:textAlignment="center"
+            android:textSize="14sp"
+            android:textStyle="italic">
+
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No one close to you makes a choice without your opinion, Tom. Not Arthur, not me, not Ada. We can’t escape you. Your lethal hand is always on our shoulders. Michael Gray’s final words to Thomas Shelby"
+            android:textAlignment="center"
+            android:textSize="14sp"
+            android:textStyle="italic">
+
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Grace Helen Shelby (née Burgess) is an Irish woman who takes up employment as a barmaid at The Garrison Pub, and secretly operates as an undercover agent for the Birmingham Police. Her mission involves getting close to Thomas Shelby in order to retrieve stolen weaponry."
+            android:textAlignment="center"
+            android:textSize="14sp"
+            android:textStyle="italic">
+
+        </TextView>
+
+    </ViewFlipper>
+</androidx.constraintlayout.widget.ConstraintLayout>
